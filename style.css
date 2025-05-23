@@ -81,4 +81,19 @@ h2{
 {
     border-bottom:2px solid #2f434f;
 }
+@media(max-width:412px ) {
+    .container{
+      height: 750px;  
+    display:flex;
+    flex-direction: column;
+    padding-top:70px;
+    justify-content: space-evenly; 
+    background-color: #2f434f34;  
+}
+.content{
+    font-size:30px;
+   color:#2f434f;
+  
+}
 
+}
